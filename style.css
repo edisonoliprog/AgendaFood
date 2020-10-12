@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(100, 3, 3);
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-size: inherit;
+    font-style: italic;
+    font-variant: small-caps;
+  }
+  h1 {
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+    padding: 20px;
+    margin: 20px 50px;
+    border-radius: 10px;
+    color: white;
+  }
+
+
+  ul{
+            color: white;
+            text-decoration: white;
+  }
+  
+  .comida {
+    align-content: center;
+    padding-top: 25px;
+    background-color: rgb(0, 110, 24);
+    border-radius: 50px;
+    position: relative;
+    left: 400px;
+    width: 500px;
+    color: white;
+  }
+  .imc {
+    text-align: center;
+  }
+  #prompt {
+    position: relative;
+    left: 580px;
+    align-content: center;
+    text-align: center;
+    background-color: black;
+    color: rgb(247, 157, 22);
+    border-left: brown;
+    margin: 0, 0, 0, 200px;
+    width: 150px;
+  }
+  
+  .boton {
+    width: 80;
+    height: 20;
+    color: white;
+    background-color: rgb(230, 19, 19);
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  li {
+
+color: white;
+
+  }

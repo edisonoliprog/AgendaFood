@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <link rel="icon" href="icon.png"/>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1 , user-scalable:no, in " />
+    <title>Projeto Agenda Food</title>
+  </head>
+  <body>
+   
+    <h1 style="color: black;">Agenda Food</h1>
+    <article> Agora você poderá controlar sua fome! Mais antes, veja se você está em forma =)</article>
+    
+    <aside>
+
+    <div id="imc">
+      <h3>Primeiro passo: Veja seu IMC</h3>
+      <p>
+        Descubra se você está gordinho, magrinho ou em forma!!
+      </p>
+      
+      <p>
+      <pre>
+        Peso : <input type="number" placeholder="coloque seu peso" id="peso" /> kg.
+        Altura:  <input type="number" placeholder="agora a altura" id="altura" /> mts. <br />
+      </pre> 
+        Resultado : <p id="prompt"></p> <br />
+        <button class="boton" onclick="calcular()"><strong>Não fique com medo! Pode calcular =) </strong></button>
+      </p>
+     </div>
+      
+    
+    <div class="comida">
+      <h3>Lista de comidas</h3>
+      <pre>
+      <p>
+        Data: <input type="date" name="" id="data" /><br />
+        
+        Café da Manhã:  <input type="text" name="" id="cafe" /> 
+        Almoço: <input type="text" name="" id="almoço" />
+        Lanche da Tarde: <input type="text" name="" id="lanche" />
+        Jantar: <input type="text" name="" id="jantar" />
+        <br>
+      
+
+        <button class="boton" onclick="agendar()">Agendar</button>
+     </div>
+     <div class="comida" id="resultado">
+       <pre>
+        <p id="f"></p>
+        <p id="d"></p>
+        <p id="a"></p>
+        <p id="m"></p>
+        <p id="c"></p>
+      </p><br>
+      <button class="boton" onclick="verA()">Ver minha Agenda</button>
+
+      
+   </div>
+   
+   <footer>
+     <p>Feito com Carinho S2 por J.Jr <button><a href="http://facebook.com" target="_blank">Facebook</a></button><button><a href="http://twitter.com" target="_blank">Twitter</a></button><button><a href="http://instagram.com" target="_blank">Instagram</a></button>
+  </aside>
+   </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
